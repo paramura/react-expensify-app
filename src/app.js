@@ -13,7 +13,7 @@ import './styles/styles.scss';
 
 const store = configureStore();
 
-console.log('Starting State :',store.getState());
+//console.log('Starting State :',store.getState());
 
 
 store.subscribe(()=>{
@@ -22,8 +22,8 @@ store.subscribe(()=>{
     const visibleExpenses = getVisibleFunction(state.expenses,state.filters); 
 })
 
-const expenseOne = store.dispatch(addExpenseAction({description: "Water Bill", amount: 1000, createdAt:240000}));
-const expenseTwo = store.dispatch(addExpenseAction({description: "Gas Bill", amount: 1500, createdAt:220000}));
+//const expenseOne = store.dispatch(addExpenseAction({description: "Water Bill", amount: 1000, createdAt:240000}));
+//const expenseTwo = store.dispatch(addExpenseAction({description: "Gas Bill", amount: 1500, createdAt:220000}));
 
 
 
