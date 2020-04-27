@@ -13,7 +13,7 @@ import './styles/styles.scss';
 
 const store = configureStore();
 
-//console.log('Starting State :',store.getState());
+console.log('Starting State :',store.getState());
 
 
 store.subscribe(()=>{
